@@ -1,0 +1,63 @@
+   
+   /* Header */
+   .container-fluid{
+    background-image: url(../../assets/img/bg.jpg);
+   }
+   .rowPers{
+    height: 150px;
+   }
+.serachBar{
+    width: 100%;
+    max-width: 350px;
+    display: inline-flex;
+}
+.serachBar_input{
+    padding: 10px;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 20px 0 0 20px ;
+    border-right: 0px;
+    background: #9eadc0;
+    transition: background 0.25s, box-shadow 0.25;
+}
+
+.serachBar_input:focus{
+    background: #abc2e0;
+    box-shadow: 0 0 2px #6a88ae;
+}
+.serachBar_input::placeholder{
+    color: #08172a;
+    padding-left: 6px;
+    font-size: 12pt;
+}
+.serachBar_button{
+    width: 50px;
+    background: #9eadc0;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    border-left: 0px;
+    border-radius: 0 20px 20px 0 ;
+}
+
+.serachBar_button svg{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+.imgPer{
+    height: 50px;
+    width: 50px;
+}
+
+
